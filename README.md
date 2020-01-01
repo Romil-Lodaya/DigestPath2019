@@ -29,7 +29,7 @@ For running the docker:
 `docker run -dit --runtime nvidia --name 2016bec062_task2_container -v /home/digestpath/TestData:/input:ro -v /output digestpath:2016bec062_task2`
 
 For Execution of the docker:
-`docker exec -it 2016bec062_task2_container python /digestpath/Segmentation.py`
+`docker exec -it 2016bec062_task2_container python /digestpath/segmentation.py`
 
 After that copy and move the results from Docker container to local disk:
 
